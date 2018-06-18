@@ -1,0 +1,11 @@
+C:\Code\TestingMLDotNet\bin\Debug\netcoreapp2.0\TestingMLDotNet.deps.json
+C:\Code\TestingMLDotNet\bin\Debug\netcoreapp2.0\TestingMLDotNet.runtimeconfig.json
+C:\Code\TestingMLDotNet\bin\Debug\netcoreapp2.0\TestingMLDotNet.runtimeconfig.dev.json
+C:\Code\TestingMLDotNet\bin\Debug\netcoreapp2.0\TestingMLDotNet.dll
+C:\Code\TestingMLDotNet\bin\Debug\netcoreapp2.0\TestingMLDotNet.pdb
+C:\Code\TestingMLDotNet\obj\Debug\netcoreapp2.0\TestingMLDotNet.csprojAssemblyReference.cache
+C:\Code\TestingMLDotNet\obj\Debug\netcoreapp2.0\TestingMLDotNet.csproj.CoreCompileInputs.cache
+C:\Code\TestingMLDotNet\obj\Debug\netcoreapp2.0\TestingMLDotNet.AssemblyInfoInputs.cache
+C:\Code\TestingMLDotNet\obj\Debug\netcoreapp2.0\TestingMLDotNet.AssemblyInfo.cs
+C:\Code\TestingMLDotNet\obj\Debug\netcoreapp2.0\TestingMLDotNet.dll
+C:\Code\TestingMLDotNet\obj\Debug\netcoreapp2.0\TestingMLDotNet.pdb
