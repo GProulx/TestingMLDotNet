@@ -47,14 +47,14 @@ namespace myApp
             var pipeline = new LearningPipeline();
 
             // If working in Visual Studio, make sure the 'Copy to Output Directory' 
-            // property of iris-data.txt is set to 'Copy always'
-            string dataPath = "iris-data.txt";
+            // property of iris-data.csv is set to 'Copy always'
+            string dataPath = "iris-data.csv";
             pipeline.Add(new TextLoader(dataPath).CreateFrom<IrisData>(separator: ','));
 
             // STEP 3: Transform your data
             // Assign numeric values to text in the "Label" column, because only
             // numbers can be processed during model training
-            pipeline.Add(new Dictionarizer("Label"));
+            pipeline.Add(new Dictionarizer(nameof(IrisData.Label)));
 
             // Puts all features into a vector
             pipeline.Add(new ColumnConcatenator("Features", "SepalLength", "SepalWidth", "PetalLength", "PetalWidth"));

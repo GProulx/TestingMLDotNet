@@ -9,4 +9,10 @@
     <PackageReference Include="Microsoft.ML" Version="0.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="iris-data.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
